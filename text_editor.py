@@ -62,8 +62,8 @@ txt_edit = tk.Text(window, bg="black", fg="white")
 leb_box = tk.Label(window, text="text box", font=20, bg="blue", fg="white")
 
 # Create a frame for buttons
-frame_button = tk.Button(window, width=2, height=5, relief=tk.RAISED, bg="blue")
-leb_button = tk.Label(frame_button, text="Button", font=20, bg="blue", fg="white")
+frame_button = tk.Frame(window, width=2, height=5, relief=tk.RAISED, bg="blue")
+leb_button = tk.Label(frame_button, text="Buttons", font=20, bg="blue", fg="white")
 
 # Create buttons for open file, save as, and delete actions
 openFile_button = tk.Button(frame_button, text="Open File", command=open_file)
